@@ -8,6 +8,7 @@ import com.brandonromano.unitizer.Unit;
 /**
  * Units found from:
  * http://en.wikipedia.org/wiki/Imperial_unit
+ * http://en.wikipedia.org/wiki/Unit_of_length
  */
 public abstract class Length extends Unit{
 	
