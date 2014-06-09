@@ -15,7 +15,7 @@ public class Seconds extends Time{
 	public Seconds(Time time){ super(time); }
 	
 	/* ========== Overridden ========== */
-	public static final double RELATIVE_TO_SECOND = 1;
+	public static final int RELATIVE_TO_SECOND = 1;
 
 	@Override
 	protected BigDecimal relativeToStandard() {

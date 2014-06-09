@@ -5,6 +5,10 @@ import java.math.BigInteger;
 
 import com.brandonromano.unitizer.Unit;
 
+/**
+ * Units found from:
+ * http://en.wikipedia.org/wiki/Unit_of_time
+ */
 public abstract class Time extends Unit{
 
 	/* ========== Constructors ========== */
