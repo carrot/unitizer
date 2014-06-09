@@ -5,6 +5,10 @@ import java.math.BigInteger;
 
 import com.brandonromano.unitizer.Unit;
 
+/**
+ * Units found from:
+ * http://en.wikipedia.org/wiki/Imperial_unit
+ */
 public abstract class Length extends Unit{
 	
 	/* ========== Constructors ========== */
