@@ -16,7 +16,7 @@ Milliseconds milliseconds = new Milliseconds(new Minutes(1));
 
 And then there's a few ways to retrieve the data
 
-```
+```java
 milliseconds.toString(); // Decimal toString representation
 milliseconds.toRoundedString(); // Integer toString representation
 milliseconds.toBigDecimal(); // BigDecimal returned
@@ -30,7 +30,7 @@ This is no problem with Unitizer!  Feel free to add your own units, and they wil
 
 Here's how you can make your own Time unit:
 
-```
+```java
 public class HotMinute extends Time{
     
     /* ========== Constructors ========== */
@@ -56,7 +56,7 @@ public class HotMinute extends Time{
 Now you can start to use this with other times.
 
 
-```
+```java
 //Converting into a HotMinute
 HotMinute hotMinute = new HotMinute(new Second(100));
 
