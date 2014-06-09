@@ -19,6 +19,7 @@ And then there's a few ways to retrieve the data
 ```java
 milliseconds.toString(); // Decimal toString representation
 milliseconds.toRoundedString(); // Integer toString representation
+milliseconds.toRoundedLong(); // Rounded long returned
 milliseconds.toBigDecimal(); // BigDecimal returned
 milliseconds.toBigInteger(); // Rounded BigInteger returned
 ```
