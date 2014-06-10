@@ -32,7 +32,7 @@ This is no problem with Unitizer!  Feel free to add your own units, and they wil
 Here's how you can make your own Time unit:
 
 ```java
-public class HotMinute extends Time{
+public class HotMinute extends TimeUnit{
     
     /* ========== Constructors ========== */
     public HotMinute(BigDecimal numUnits) { super(numUnits); }
