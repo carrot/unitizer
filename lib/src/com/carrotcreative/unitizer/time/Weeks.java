@@ -3,7 +3,7 @@ package com.carrotcreative.unitizer.time;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-public class Weeks extends Time{
+public class Weeks extends TimeUnit{
 	
 	/* ========== Constructors ========== */
 	public Weeks(BigDecimal numUnits) { super(numUnits); }
@@ -12,7 +12,7 @@ public class Weeks extends Time{
 	public Weeks(double numUnits) { super(numUnits); }
 	public Weeks(int numUnits) { super(numUnits); }
 	public Weeks(long numUnits) { super(numUnits); }
-	public Weeks(Time time){ super(time); }
+	public Weeks(TimeUnit time){ super(time); }
 	
 	/* ========== Overridden ========== */
 	public static final int RELATIVE_TO_SECOND = 604800;

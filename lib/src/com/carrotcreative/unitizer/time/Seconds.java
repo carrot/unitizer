@@ -3,7 +3,7 @@ package com.carrotcreative.unitizer.time;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-public class Seconds extends Time{
+public class Seconds extends TimeUnit{
 	
 	/* ========== Constructors ========== */
 	public Seconds(BigDecimal numUnits) { super(numUnits); }
@@ -12,7 +12,7 @@ public class Seconds extends Time{
 	public Seconds(double numUnits) { super(numUnits); }
 	public Seconds(int numUnits) { super(numUnits); }
 	public Seconds(long numUnits) { super(numUnits); }
-	public Seconds(Time time){ super(time); }
+	public Seconds(TimeUnit time){ super(time); }
 	
 	/* ========== Overridden ========== */
 	public static final int RELATIVE_TO_SECOND = 1;

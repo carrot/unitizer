@@ -3,9 +3,9 @@ package com.carrotcreative.unitizer.length.imperical;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-import com.carrotcreative.unitizer.length.Length;
+import com.carrotcreative.unitizer.length.LengthUnit;
 
-public class Chains extends Length{
+public class Chains extends LengthUnit{
 	
 	/* ========== Constructors ========== */
 	public Chains(BigDecimal numUnits) { super(numUnits); }
@@ -14,7 +14,7 @@ public class Chains extends Length{
 	public Chains(double numUnits) { super(numUnits); }
 	public Chains(int numUnits) { super(numUnits); }
 	public Chains(long numUnits) { super(numUnits); }
-	public Chains(Length length){ super(length); }
+	public Chains(LengthUnit length){ super(length); }
 	
 	/* ========== Overridden ========== */
 	public static final double RELATIVE_TO_METER = 20.1168;

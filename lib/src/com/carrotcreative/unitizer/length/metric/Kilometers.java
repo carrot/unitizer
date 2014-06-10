@@ -3,9 +3,9 @@ package com.carrotcreative.unitizer.length.metric;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-import com.carrotcreative.unitizer.length.Length;
+import com.carrotcreative.unitizer.length.LengthUnit;
 
-public class Kilometers extends Length{
+public class Kilometers extends LengthUnit{
 	
 	/* ========== Constructors ========== */
 	public Kilometers(BigDecimal numUnits) { super(numUnits); }
@@ -14,7 +14,7 @@ public class Kilometers extends Length{
 	public Kilometers(double numUnits) { super(numUnits); }
 	public Kilometers(int numUnits) { super(numUnits); }
 	public Kilometers(long numUnits) { super(numUnits); }
-	public Kilometers(Length length){ super(length); }
+	public Kilometers(LengthUnit length){ super(length); }
 	
 	/* ========== Overridden ========== */
 	public static final double RELATIVE_TO_METER = 1000;

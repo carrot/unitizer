@@ -3,9 +3,9 @@ package com.carrotcreative.unitizer.length.maritime;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-import com.carrotcreative.unitizer.length.Length;
+import com.carrotcreative.unitizer.length.LengthUnit;
 
-public class Cables extends Length{
+public class Cables extends LengthUnit{
 
 	/* ========== Constructors ========== */
 	public Cables(BigDecimal numUnits) { super(numUnits); }
@@ -14,7 +14,7 @@ public class Cables extends Length{
 	public Cables(double numUnits) { super(numUnits); }
 	public Cables(int numUnits) { super(numUnits); }
 	public Cables(long numUnits) { super(numUnits); }
-	public Cables(Length length){ super(length); }
+	public Cables(LengthUnit length){ super(length); }
 	
 	/* ========== Overridden ========== */
 	public static final double RELATIVE_TO_METER = 185.3184;

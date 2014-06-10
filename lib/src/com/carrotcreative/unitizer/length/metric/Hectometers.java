@@ -3,9 +3,9 @@ package com.carrotcreative.unitizer.length.metric;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-import com.carrotcreative.unitizer.length.Length;
+import com.carrotcreative.unitizer.length.LengthUnit;
 
-public class Hectometers extends Length{
+public class Hectometers extends LengthUnit{
 
 	/* ========== Constructors ========== */
 	public Hectometers(BigDecimal numUnits) { super(numUnits); }
@@ -14,7 +14,7 @@ public class Hectometers extends Length{
 	public Hectometers(double numUnits) { super(numUnits); }
 	public Hectometers(int numUnits) { super(numUnits); }
 	public Hectometers(long numUnits) { super(numUnits); }
-	public Hectometers(Length length){ super(length); }
+	public Hectometers(LengthUnit length){ super(length); }
 	
 	/* ========== Overridden ========== */
 	public static final double RELATIVE_TO_METER = 100;

@@ -3,9 +3,9 @@ package com.carrotcreative.unitizer.length.maritime;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-import com.carrotcreative.unitizer.length.Length;
+import com.carrotcreative.unitizer.length.LengthUnit;
 
-public class NauticalMiles extends Length{
+public class NauticalMiles extends LengthUnit{
 	
 	/* ========== Constructors ========== */
 	public NauticalMiles(BigDecimal numUnits) { super(numUnits); }
@@ -14,7 +14,7 @@ public class NauticalMiles extends Length{
 	public NauticalMiles(double numUnits) { super(numUnits); }
 	public NauticalMiles(int numUnits) { super(numUnits); }
 	public NauticalMiles(long numUnits) { super(numUnits); }
-	public NauticalMiles(Length length){ super(length); }
+	public NauticalMiles(LengthUnit length){ super(length); }
 	
 	/* ========== Overridden ========== */
 	public static final double RELATIVE_TO_METER = 1853.184;

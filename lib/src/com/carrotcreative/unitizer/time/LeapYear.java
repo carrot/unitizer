@@ -3,7 +3,7 @@ package com.carrotcreative.unitizer.time;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-public class LeapYear extends Time {
+public class LeapYear extends TimeUnit {
 
 	/* ========== Constructors ========== */
 	public LeapYear(BigDecimal numUnits) { super(numUnits); }
@@ -12,7 +12,7 @@ public class LeapYear extends Time {
 	public LeapYear(double numUnits) { super(numUnits); }
 	public LeapYear(int numUnits) { super(numUnits); }
 	public LeapYear(long numUnits) { super(numUnits); }
-	public LeapYear(Time time){ super(time); }
+	public LeapYear(TimeUnit time){ super(time); }
 	
 	/* ========== Overridden ========== */
 	public static final int RELATIVE_TO_SECOND = 31622400;

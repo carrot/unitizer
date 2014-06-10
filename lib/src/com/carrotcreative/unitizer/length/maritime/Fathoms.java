@@ -3,9 +3,9 @@ package com.carrotcreative.unitizer.length.maritime;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-import com.carrotcreative.unitizer.length.Length;
+import com.carrotcreative.unitizer.length.LengthUnit;
 
-public class Fathoms extends Length{
+public class Fathoms extends LengthUnit{
 	
 	/* ========== Constructors ========== */
 	public Fathoms(BigDecimal numUnits) { super(numUnits); }
@@ -14,7 +14,7 @@ public class Fathoms extends Length{
 	public Fathoms(double numUnits) { super(numUnits); }
 	public Fathoms(int numUnits) { super(numUnits); }
 	public Fathoms(long numUnits) { super(numUnits); }
-	public Fathoms(Length length){ super(length); }
+	public Fathoms(LengthUnit length){ super(length); }
 	
 	/* ========== Overridden ========== */
 	public static final double RELATIVE_TO_METER = 1.853184;

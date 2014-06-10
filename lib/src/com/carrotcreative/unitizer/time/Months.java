@@ -6,7 +6,7 @@ import java.math.BigInteger;
 /**
  * Simply 30 days
  */
-public class Months extends Time{
+public class Months extends TimeUnit{
 	
 	/* ========== Constructors ========== */
 	public Months(BigDecimal numUnits) { super(numUnits); }
@@ -15,7 +15,7 @@ public class Months extends Time{
 	public Months(double numUnits) { super(numUnits); }
 	public Months(int numUnits) { super(numUnits); }
 	public Months(long numUnits) { super(numUnits); }
-	public Months(Time time){ super(time); }
+	public Months(TimeUnit time){ super(time); }
 	
 	/* ========== Overridden ========== */
 	public static final int RELATIVE_TO_SECOND = 2592000;

@@ -15,6 +15,6 @@ public class Year extends GregorianYear{
 	public Year(double numUnits) { super(numUnits); }
 	public Year(int numUnits) { super(numUnits); }
 	public Year(long numUnits) { super(numUnits); }
-	public Year(Time time){ super(time); }
+	public Year(TimeUnit time){ super(time); }
 
 }

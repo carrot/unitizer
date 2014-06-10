@@ -3,12 +3,12 @@ package com.carrotcreative.unitizer.length.imperical;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-import com.carrotcreative.unitizer.length.Length;
+import com.carrotcreative.unitizer.length.LengthUnit;
 
 /**
  * 1/1000 of an inch
  */
-public class Thou extends Length{
+public class Thou extends LengthUnit{
 
 	/* ========== Constructors ========== */
 	public Thou(BigDecimal numUnits) { super(numUnits); }
@@ -17,7 +17,7 @@ public class Thou extends Length{
 	public Thou(double numUnits) { super(numUnits); }
 	public Thou(int numUnits) { super(numUnits); }
 	public Thou(long numUnits) { super(numUnits); }
-	public Thou(Length length){ super(length); }
+	public Thou(LengthUnit length){ super(length); }
 	
 	/* ========== Overridden ========== */
 	public static final double RELATIVE_TO_METER = 0.0000254;

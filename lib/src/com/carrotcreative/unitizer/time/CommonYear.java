@@ -3,7 +3,7 @@ package com.carrotcreative.unitizer.time;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-public class CommonYear extends Time{
+public class CommonYear extends TimeUnit{
 
 	/* ========== Constructors ========== */
 	public CommonYear(BigDecimal numUnits) { super(numUnits); }
@@ -12,7 +12,7 @@ public class CommonYear extends Time{
 	public CommonYear(double numUnits) { super(numUnits); }
 	public CommonYear(int numUnits) { super(numUnits); }
 	public CommonYear(long numUnits) { super(numUnits); }
-	public CommonYear(Time time){ super(time); }
+	public CommonYear(TimeUnit time){ super(time); }
 	
 	/* ========== Overridden ========== */
 	public static final int RELATIVE_TO_SECOND = 31536000;
